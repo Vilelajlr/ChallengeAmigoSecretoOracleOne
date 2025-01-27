@@ -1,10 +1,16 @@
-//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+# Challenge Amigo Secreto Oracle One + Alura
 
-let amigos = [];
+#### Para rodar o projeto basta apenas fazer o dowload do codigo pelo GitHub e iniciar.
 
+## Primeiro e criado uma variavel para armazenar os amigos 
+```
+    let amigos = [];
+```
 
-
-const adicionarAmigo = () => {
+## Funcoes principais
+### Adicionar Amigo - responsavel por adicionar os amigos selecionados que irao participar do sorteio.
+```
+    const adicionarAmigo = () => {
 
     let inputNameFriend = document.getElementById("amigo").value;
     
@@ -25,9 +31,11 @@ const adicionarAmigo = () => {
     }
 
 }
+```
 
-
-const sortearAmigo = () => {
+### Sortear Amigos - responsavel por sortear os amigos que ja foram adicionados anteriormente.
+```
+    const sortearAmigo = () => {
     
     if (amigos.length === 0) {
         alert("Nenhum amigo na lista.");
@@ -44,4 +52,4 @@ const sortearAmigo = () => {
 
 
 }
-
+```
